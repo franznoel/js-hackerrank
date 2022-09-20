@@ -9,9 +9,9 @@ function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
     return (sortedArrays[median] + sortedArrays[median-1]) / 2
   }
   
-  const median = Math.ceil(arrayLength/2)
-  console.log('median odd', median-1, sortedArrays, sortedArrays[median-1])
-  return sortedArrays[median-1]
+  const median = Math.floor(arrayLength/2)
+  console.log('median odd', median, sortedArrays, sortedArrays[median])
+  return sortedArrays[median]
 };
 
 // console.log(findMedianSortedArrays([1,3], [2]))

@@ -1,3 +1,5 @@
+import React from 'react';
+
 // 1. How to de-dupe from an array of objects: [{ a: 1}, { a: 1}]
 function deduper(arr1) {
   const deduped = arr1.filter((theObject, index, self) => {
@@ -43,8 +45,8 @@ console.log(saveToDB(new Array(176).fill('Something')))
 // 5. Write a react component and css that creates a two column layout with a header called "My Component". The layout should be a maximum of 1200px wide. In the left column, there should be three navigation elements: Link 1, Link 2, Link 3. In the right column, there should be a form with a submit button and two fields: Name input and "I agree" checkbox. When the fields are complete and the button has been clicked, text below the form should say "Thank you, <name>!"
 
 function Component() {
-  const [name, setName] = useState('')
-  const [isSubmitted, setIsSubmitted] = useState(false)
+  const [name, setName] = React.useState('')
+  const [isSubmitted, setIsSubmitted] = React.useState(false)
 
   const inputNameHandler = (e) => {
     setName(e.target.value)
@@ -70,7 +72,7 @@ function Component() {
           </div>
         ) : (
           <form onSubmit={() => submitHandler}>
-            <input type="text" value={name} onChang={inputNameHandler}
+            <input type="text" value={name} onChang={inputNameHandler} />
             <button type="submit">Submit</button>
           </form>
         )}

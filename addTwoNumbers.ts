@@ -7,7 +7,7 @@ class ListNode {
   }
 }
 
-function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null| void {
   console.log(l1, l2)
   // const reversedL1= l1.reverse().join("").map(Number)
   // const reversedL2 = l2.reverse().join("").map(Number)

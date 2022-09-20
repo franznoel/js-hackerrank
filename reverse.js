@@ -3,7 +3,7 @@ function reverseArray() {
 
     arr.reverse();
 
-    console.log(arr.join(" "));
+    return arr.join(" ");
 }
 
 console.log(reverseArray());

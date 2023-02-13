@@ -1,0 +1,84 @@
+Explan how lambda function, works
+AWS security, how to secure data
+
+Git strategy
+
+Diff between rebase and merge
+
+Coding: How you write factorial?
+
+How event works internally?
+
+Eventloop work
+
+Diff between Let and var?
+
+Diff design patterns? (Like Singleton..etc)
+
+Diff between overloading and overriding?
+
+If suppose want to developer a stock exchange what design you follow?
+
+What is UDP? Similar to TCP
+
+How lambda internally uses TCP?
+
+What is Closure in javaScript?
+
+What is the Arrow function?
+
+What is Let, var
+
+How asynchronous calls back work
+
+Concept: triple dot and object when it got used.
+
+How Eventloop works?
+
+How you improved performance of Lambda?
+
+Design, AWS architecture your project.
+
+AWS Server, how to use them?
+Related to web processing lambda function?
+AWS tools diagnosis question
+JavaScript function channel, scoop control, Node.JS, React framework?
+
+What are the best practices for security in Lambda?
+About EC2 services
+Related to argument and objects in JavaScript
+API functions in Node.js and coding
+To write a small piece of code in react
+
+About AWS Lambda sequences and step functions
+What is authorization and when it is used ?
+About AWS vendors
+How to useEffect hook in react ?
+About userfaces
+How react works ?
+About redux
+
+Question related to algorithm
+Coding question
+Reverse string
+Interface, class, method overloading
+Have you work remotely before or during covid?
+
+JavaScript function channel, scoop control, Node.JS, React framework?
+
+AWS tools diagnosis question.
+
+Related to web processing lambda function?
+Related to argument and objects in JavaScript
+API functions in Node.js and coding.
+
+AWS Architecture
+
+How can you design AWS Serverless (large application)
+
+About his background
+Types of cloud services and the AWS products.
+About CloudFormation Solution.
+About managing packages in node.
+Function in JavaScript.
+How to use JavaScript library for building user interfaces?

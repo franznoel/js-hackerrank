@@ -1,0 +1,22 @@
+{
+  "name": "js-hackerrank",
+  "version": "1.0.0",
+  "description": "JavaScript HackerRank codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franznoel/js-hackerrank.git"
+  },
+  "author": "Franz Noel Tanglao <franz@tanglao.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franznoel/js-hackerrank/issues"
+  },
+  "homepage": "https://github.com/franznoel/js-hackerrank#readme",
+  "devDependencies": {
+    "@faker-js/faker": "7.6.0"
+  }
+}

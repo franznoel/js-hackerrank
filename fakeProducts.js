@@ -3,18 +3,19 @@ const {faker } = require('@faker-js/faker');
 const createProducts = (numberOfProducts) => {
   const products = [];
   for (let i = 0; i < numberOfProducts; i ++) {
-    const name = faker.name.fullName();
+
+    const hasBeforePrice = faker.datatype.boolean();
     const product = {
-      brandName: faker.helpers.arrayElement(['Google', 'Apple', ]),
-      image: faker.image.abstract(32, 32, true),
-      title: name,
+      id: i + 1,
+      brandName: faker.helpers.arrayElement(['Google', 'Apple', 'GIGABYTE', 'Microsoft']),
+      image: faker.image.abstract(100, 100, true),
+      title: faker.lorem.words(10),
       description: faker.lorem.paragraph(),
       price: faker.finance.amount(100, 3000, 2, '$'),
-      beforePrice: faker.finance.amount(100, 3000, 2, '$'),
+      beforePrice: hasBeforePrice ? faker.finance.amount(100, 3000, 2, '$') : undefined,
       isFreeShipping: faker.datatype.boolean(),
       isFreeGift: faker.datatype.boolean()
     };
-    console.log('product', product)
     products.push(product);
   }
   

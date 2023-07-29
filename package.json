@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/franznoel/js-hackerrank#readme",
   "devDependencies": {
-    "@faker-js/faker": "7.6.0"
+    "@faker-js/faker": "7.6.0",
+    "chai": "4.3.7",
+    "mocha": "10.2.0"
   }
 }
